@@ -1,0 +1,57 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    line-height:2.5em ;
+    font-family:sans-serif;
+    color: #707070;
+    
+}
+img{
+    width: 100%;
+    max-width: 600px;
+}
+header{
+    text-align: center;
+    font-size: 1.9rem;
+}
+ h1{
+    line-height: 4.3rem;
+} 
+
+span{
+    color: #89832F;
+}
+
+.container{
+    margin:0 auto;
+    font-size: 1.5rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-bg{
+    padding: .5em;
+    margin: .5em 0;
+    color: white;
+    background-color: #312614;
+}
+
+.col-1{
+    width: 25%;
+}
+.col-2{
+    width: 40%;
+}
+.col-3{
+    width: 70%;
+}
